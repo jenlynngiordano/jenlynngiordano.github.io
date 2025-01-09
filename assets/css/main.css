@@ -81,15 +81,16 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
 	body {
-		background: #f0f4f4;
-		color: #5b5b5b;
-		font-size: 15pt;
-		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+	    background: url('../images/neuron_art.jpg') no-repeat center center fixed;
+	    background-size: cover; /* Ensures the image covers the entire screen */
+	    color: #5b5b5b;
+	    font-size: 15pt;
+	    line-height: 1.85em;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    font-weight: 300;
 	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
